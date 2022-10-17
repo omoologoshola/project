@@ -10,3 +10,13 @@ int mul(int a, int b)
                 result=a*b;
                 return result;
         }
+ * div - divide two number
+ * @a: real number
+ * @b: real number
+ * Return: a decimal number
+ */
+
+double div (double a, double b)
+{
+	return (a / b);
+}
